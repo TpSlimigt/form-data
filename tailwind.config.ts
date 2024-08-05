@@ -13,6 +13,7 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      // https://uicolors.app/create for color gradiants
       colors: {
         blue: {
           '50': '#f0f9ff',
