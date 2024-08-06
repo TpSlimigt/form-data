@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import Button from '@/components/Button'
+import Button from '@form-data/components/Button'
 
 export default function Home() {
   return (
