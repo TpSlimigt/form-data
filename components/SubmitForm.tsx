@@ -130,44 +130,44 @@ export default function SubmitForm() {
           </p>
           <div className="relative grid grid-cols-4">
             <Button
-              label="Option 1"
+              label="Construction"
               color={highlightedCategories[0]}
-              onClick={() => onSelected(0, 'Option 1')}
+              onClick={() => onSelected(0, 'Construction')}
             ></Button>
             <Button
-              label="Option 2"
+              label="Consumer"
               color={highlightedCategories[1]}
-              onClick={() => onSelected(1, 'Option 2')}
+              onClick={() => onSelected(1, 'Consumer')}
             ></Button>
             <Button
-              label="Option 3"
+              label="Education"
               color={highlightedCategories[2]}
-              onClick={() => onSelected(2, 'Option 3')}
+              onClick={() => onSelected(2, 'Education')}
             ></Button>
             <Button
-              label="Option 4"
+              label="Engineering"
               color={highlightedCategories[3]}
-              onClick={() => onSelected(3, 'Option 4')}
+              onClick={() => onSelected(3, 'Engineering')}
             ></Button>
             <Button
-              label="Option 5"
+              label="Financial"
               color={highlightedCategories[4]}
-              onClick={() => onSelected(4, 'Option 5')}
+              onClick={() => onSelected(4, 'Financial')}
             ></Button>
             <Button
-              label="Option 6"
+              label="Marketing"
               color={highlightedCategories[5]}
-              onClick={() => onSelected(5, 'Option 6')}
+              onClick={() => onSelected(5, 'Marketing')}
             ></Button>
             <Button
-              label="Option 7"
+              label="Technology"
               color={highlightedCategories[6]}
-              onClick={() => onSelected(6, 'Option 7')}
+              onClick={() => onSelected(6, 'Technology')}
             ></Button>
             <Button
-              label="Option 8"
+              label="Tourism"
               color={highlightedCategories[7]}
-              onClick={() => onSelected(7, 'Option 8')}
+              onClick={() => onSelected(7, 'Tourism')}
             ></Button>
           </div>
           <input
