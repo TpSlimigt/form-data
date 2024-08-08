@@ -24,7 +24,16 @@ export default function SubmitForm() {
     specialRequest: '',
   })
 
-  const onSubmit = () => {}
+  const onSubmit = async () => {
+    try {
+      await fetch('/api/send-data', {
+        method: 'POST',
+        body: JSON.stringify(formData),
+      })
+    } catch (error) {
+      console.log(error)
+    }
+  }
 
   const handleFormChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value.toString() })
