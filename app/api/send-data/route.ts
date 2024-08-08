@@ -15,5 +15,5 @@ export async function POST(req: NextRequest) {
     `Hello my name is ${name} and I work for ${company} and specialize in ${categories}.\nI have a group of ${participants} that would like to visit you on ${date}.\n${specialRequest}\nContact me on ${email}`,
   )
 
-  return new NextRequest('OK')
+  return new NextResponse('OK')
 }
