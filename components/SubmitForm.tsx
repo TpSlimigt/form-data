@@ -37,7 +37,7 @@ export default function SubmitForm() {
 
   const handleFormChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value.toString() })
-    console.log(e.target.value)
+    //console.log(e.target.value)
   }
 
   // Handles participants variable
